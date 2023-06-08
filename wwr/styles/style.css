@@ -268,4 +268,7 @@ main {
   footer {
       margin-top: 25px;
   }
+  .card-img, .mountains {
+    width: 100%;
+  }
 }
