@@ -2,12 +2,13 @@
 
 :root {
   --heading-font: "Open Sans";
-  --paragraph-font: "Roboto, Helvetica, sans-serif";
+  --paragraph-font: Roboto, Helvetica, sans-serif;
 }
 
 #content {
   max-width: 1600px;
   margin: 0 auto;
+
 }
 
 nav a {
@@ -43,11 +44,11 @@ main {
   margin-left: 100px;
   margin-top: 80px;
   margin-right: 100px;
+  background-color: #9A8C98;
+  background-size: 100%;
 }
-.h11 {
-  margin: 500px;
-  margin-bottom: 50px;
-}
+
+
 .qa-img {
   margin-left: 150px;
   border: black;
