@@ -5,27 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QA Forum</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>QA Forum | Home </title>
+    <link rel="stylesheet" href="styles/style1.css">
 </head>
 
 <body>
-    <div class="content">
+    <div id="content">
         <header>
-            <a href="index.html" class="images-logo">
-                <img class="logo" src="images/qa1.png" alt="qa-logo">
+            <a href="index.html" class="images/logo-brand">
+                <img class="logo" src="images/logo.png" alt="qa-logo">
             </a>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="qcstages.html">QA Stages</a>
                 <a href="automation.html">Automation</a>
+                <a href="contactus.html">Contact Us</a>
             </nav>
         </header>
-        <main class="qa-m">
-            <h1 class="h11">QUALITY ASSURANCE</h1>
-            <section class="qa">
-                <img class="qa-img" src="images/qa_qc.png" alt="qa&qc">
-                <p class="p1">What is quality control (QA)? Quality control is a part of an organization's quality management plan
+        <div id="qa">
+            <div id="qa-box">
+                <img id="qa-img" src="slides-show/images/test3.jpg" alt="Testing Quality Assurance">
+            </div>
+            <section id="qa-forum">
+                <h1 class="home-title">QA-Forum</h1>
+                <h4>Improve your Test instinct</h4>
+                <div class='button-box'>
+                    <a class='contact' href="contactus.html">Contact US</a>
+                </div>
+            </section>
+        </div>
+        <main class="home-grid">
+            <section class="qa-1">
+                <h2>QUALITY ASSURANCE</h2>
+                <img class="img1" src="images/qa-1.png" alt="What is QA">
+                <p>What is quality control (QA)? Quality control is a part of an organization's quality management plan
                     that prevents defects, recognizes defects during product development, and is proactive. What is
                     quality control (QC)? Quality control is also part of an organization's quality management plan that
                     focuses on detecting defects. It ensures that the final product meets all quality and safety
@@ -58,14 +71,28 @@
                     responsible for quality control activities. Everyone involved in the life cycle of a product must
                     follow the SOPs for quality control. The quality control activities that the team must follow are
                     training, documentation, and review of the entire workforce. A dedicated test team is usually
-                    responsible for following the SOP quality control procedure.</p>
-                </section>
-            <section class="qa_vs_qc">
-                <img class="qa-img1" src="images/qa_qc2.png" alt="qa&qc2">
-                <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum corrupti laboriosam debitis obcaecati
-                    omnis praesentium, quae expedita! Nulla sit quia asperiores similique, aperiam cupiditate error
-                    minima non facere. Quibusdam, tempore!</p>
-                </section>
+                    responsible for following the SOP quality control procedure. </p>
+            </section>
+            <section class="qa-2">
+                <h2>Difference Between Quality Assurance And Quality Control</h2>
+                <img class="img2" src="images/qa-2.png" alt="QA VS QC">
+                <p class="p1">Here is the exact difference between Quality Control and Quality Assurance that one needs to know:
+
+                    Quality Assurance	Quality Control
+                    It is a process which deliberates on providing assurance that quality request will be achieved.	QC is a process which deliberates on fulfilling the quality request.
+                    A QA aim is to prevent the defect.	A QC aim is to identify and improve the defects.
+                    QA is the technique of managing quality.	QC is a method to verify quality.
+                    QA does not involve executing the program.	QC always involves executing the program.
+                    All team members are responsible for QA.	Testing team is responsible for QC.
+                    QA Example: Verification	QC Example: Validation.
+                    QA means Planning for doing a process.	QC Means Action for executing the planned process.
+                    Statistical Technique used on QA is known as Statistical Process Control (SPC.)	Statistical Technique used on QC is known as Statistical Quality Control (SPC.)
+                    QA makes sure you are doing the right things.	QC makes sure the results of what you've done are what you expected.
+                    QA Defines standards and methodologies to followed in order to meet the customer requirements.	QC ensures that the standards are followed while working on the product.
+                    QA is the process to create the deliverables.	QC is the process to verify that deliverables.
+                    QA is responsible for full software development life cycle.	QC is responsible for software testing life cycle.</p>
+            </section>
+
         </main>
         <footer>
             <p>QA Forum &copy; 2023 -Rodrigo Sepulveda </p>
@@ -83,9 +110,7 @@
                 </a>
             </div>
         </footer>
-
     </div>
-
 </body>
 
 </html>
